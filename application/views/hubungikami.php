@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/hubungikami/'; ?>css/style.css">
     <!-- Font Awesome Script -->
     <script src="https://kit.fontawesome.com/922eb8e20d.js" crossorigin="anonymous"></script>
+    <script src="<?php echo base_url()."assets/js/jquery.js"?>"></script>
+    <script src="<?php echo base_url()."assets/js/jquery.min.js"?>"></script>
     <title>STISOSPOL - Waskita Dharma Malang</title>
 </head>
 <body>
@@ -55,12 +57,12 @@
                                 <a href="#">Sejarah</a>
                             </div>
                         </li>
-                        <li class="muduno2"><a href="#">PROGRAM STUDI<i class="fa fa-caret-down ic-sm" aria-hidden="true"></i></a>
+                        <li class="muduno2"><a href="#">PRODI<i class="fa fa-caret-down ic-sm" aria-hidden="true"></i></a>
                             <div class="dropdown-content2">
                                 <a href="<?php echo base_url('home/admpublik')?>">Administrasi Publik</a>
                             </div>
                         </li>
-                        <li><a href="#">PENELITIAN DAN PENGABDIAN</a>
+                        <li><a href="#">PENELITIAN</a>
                         </li>
                         <li><a href="#">FASILITAS</a>
                         </li>
@@ -220,47 +222,33 @@
 
     <!-- Footer Section -->
     <footer>
-        <div class="footer1"><h5>Tentang Waskita</h5>
+        <div class="footer1"><img class="img-fluid" src="<?php echo base_url().'assets/boxberita/'; ?>assets/logo.png" alt="">
+        </div>
+        <div class="footer2"><h5>Tentang Waskita</h5>
             <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
+                <a href="#">Visi Misi</a>
+                <a href="#">Sambutan</a>
+                <a href="#">Sejarah</a>
+                <a href="#">Sekilas</a>
             </div>
         </div>
-        <div class="footer2"><h5>Admisi</h5>
+        <div class="footer3"><h5>Akademik</h5>
             <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
+                <a href="#">Penelitian dan Pengabdian</a>
+                <a href="#">Fasilitas</a>
+                <a href="#">e-Learning</a>
             </div>
         </div>
-        <div class="footer3"><h5>Program Studi</h5>
+        <div class="footer4"><h5>Program Studi</h5>
             <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
+                <a href="#">Administrasi Publik</a>
             </div>
         </div>
-        <div class="footer4"><h5>Akademik</h5>
+        <div class="footer5"><h5>Admisi</h5>
             <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
+                <a href="#">Daftar Mahasiswa Baru</a>
             </div>
         </div>
-        <div class="footer5"><h5>Research</h5>
-            <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
-            </div>
-        </div>
-        <div class="footer6"><img class="img-fluid" src="<?php echo base_url().'assets/boxberita/'; ?>assets/logo.png" alt=""></div>
     </footer>
 
     <!-- JQuery Optional -->
@@ -328,7 +316,6 @@
         // Script Galerry Slider
         
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
             //you can set this, as long as it's not greater than the slides length

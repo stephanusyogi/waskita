@@ -53,5 +53,10 @@ public function __construct()
 		$this->load->view('hubungikami');
 	}
 
+    // Page Direct
+	function direct()
+	{
+		$this->load->view('direct');
+	}
 
 }

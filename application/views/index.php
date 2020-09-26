@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="<?php echo base_url().'assets/'; ?>logo.png" rel="shortcut icon">
     <link rel="stylesheet" href="<?php echo base_url().'assets/'; ?>css/style.css">
+    <script src="<?php echo base_url()."assets/js/jquery.js"?>"></script>
+    <script src="<?php echo base_url()."assets/js/jquery.min.js"?>"></script>
 </head>
 
 <body>

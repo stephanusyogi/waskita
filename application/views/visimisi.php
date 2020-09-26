@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'assets/pberita/'; ?>css/style.css">
+    <script src="<?php echo base_url()."assets/js/jquery.js"?>"></script>
+    <script src="<?php echo base_url()."assets/js/jquery.min.js"?>"></script>
 
     <!-- Data Icon -->
     <title>STISOSPOL - Waskita Dharma Malang</title>

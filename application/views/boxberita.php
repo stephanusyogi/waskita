@@ -16,6 +16,9 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/boxberita/'; ?>css/style.css">
     <!-- Font Awesome Script -->
     <script src="https://kit.fontawesome.com/922eb8e20d.js" crossorigin="anonymous"></script>
+    <script src="<?php echo base_url()."assets/js/main.js"?>"></script>
+    <script src="<?php echo base_url()."assets/js/jquery.js"?>"></script>
+    <script src="<?php echo base_url()."assets/js/jquery.min.js"?>"></script>
     <title>STISOSPOL - Waskita Dharma Malang</title>
 </head>
 <body>
@@ -57,12 +60,12 @@
                                 <a href="#">Sejarah</a>
                             </div>
                         </li>
-                        <li class="muduno2"><a href="#">PROGRAM STUDI<i class="fa fa-caret-down ic-sm" aria-hidden="true"></i></a>
+                        <li class="muduno2"><a href="#">PRODI<i class="fa fa-caret-down ic-sm" aria-hidden="true"></i></a>
                             <div class="dropdown-content2">
                                 <a href="<?php echo base_url('home/admpublik')?>">Administrasi Publik</a>
                             </div>
                         </li>
-                        <li><a href="#">PENELITIAN DAN PENGABDIAN</a>
+                        <li><a href="#">PENELITIAN</a>
                         </li>
                         <li><a href="#">FASILITAS</a>
                         </li>
@@ -90,20 +93,20 @@
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Profil<i class="fa fa-caret-down ic-sm" aria-hidden="true"></i></button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">Sambutan</a>
-                <a href="#">Visi & Misi</a>
-                <a href="#">Sejarah</a>
-            </div>
+                <button onclick="myFunction()" class="dropbtn">Profil&nbsp;&gt;</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Sambutan</a>
+                    <a href="#">Visi & Misi</a>
+                    <a href="#">Sejarah</a>
+                </div>
             </div>
             <div class="dropdown2">
-            <button onclick="myFunction2()" class="dropbtn2">Program Studi<i class="fa fa-caret-down ic-sm" aria-hidden="true"></i></button>
-            <div id="myDropdown2" class="dropdown-content2">
-                <a href="#">Administrasi Publik</a>
+                <button onclick="myFunction2()" class="dropbtn2">Prodi&nbsp;&gt;</button>
+                <div id="myDropdown2" class="dropdown-content2">
+                    <a href="#">Administrasi Publik</a>
+                </div>
             </div>
-            </div>
-            <a href="menu.html">Penelitian dan Pengembangan</a>
+            <a href="menu.html">Penelitian</a>
             <a href="contact.html">Fasilitas</a>
             <a href="location.html">Akademik</a>
     
@@ -265,59 +268,36 @@
 
     <!-- Footer Section -->
     <footer>
-        <div class="footer1"><h5>Tentang Waskita</h5>
+        <div class="footer1"><img class="img-fluid" src="<?php echo base_url().'assets/boxberita/'; ?>assets/logo.png" alt="">
+        </div>
+        <div class="footer2"><h5>Tentang Waskita</h5>
             <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
+                <a href="#">Visi Misi</a>
+                <a href="#">Sambutan</a>
+                <a href="#">Sejarah</a>
+                <a href="#">Sekilas</a>
             </div>
         </div>
-        <div class="footer2"><h5>Admisi</h5>
+        <div class="footer3"><h5>Akademik</h5>
             <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
+                <a href="#">Penelitian dan Pengabdian</a>
+                <a href="#">Fasilitas</a>
+                <a href="#">e-Learning</a>
             </div>
         </div>
-        <div class="footer3"><h5>Program Studi</h5>
+        <div class="footer4"><h5>Program Studi</h5>
             <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
+                <a href="#">Administrasi Publik</a>
             </div>
         </div>
-        <div class="footer4"><h5>Akademik</h5>
+        <div class="footer5"><h5>Admisi</h5>
             <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
+                <a href="#">Daftar Mahasiswa Baru</a>
             </div>
         </div>
-        <div class="footer5"><h5>Research</h5>
-            <div class="subfooter">
-                <p>Sejarah Kampus</p>
-                <p>Administrasi</p>
-                <p>Social Media</p>
-                <p>Pimpinan</p>
-            </div>
-        </div>
-        <div class="footer6"><img class="img-fluid" src="<?php echo base_url().'assets/boxberita/'; ?>assets/logo.png" alt=""></div>
     </footer>
 
     <script>
-
-        // Script Menu Respon
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
 
         // Script Menu Dropdown CSS
         function myFunction() {
@@ -368,11 +348,11 @@
         }
         }
 
-        // Script Galerry Slider
+        
         
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
+    // Script Galerry Slider
         $(document).ready(function () {
             //you can set this, as long as it's not greater than the slides length
             var show = 5;

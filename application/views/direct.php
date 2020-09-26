@@ -12,7 +12,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/detailberita/'; ?>css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/direct/'; ?>css/style.css">
     <!-- Font Awesome Script -->
     <script src="https://kit.fontawesome.com/922eb8e20d.js" crossorigin="anonymous"></script>
     <script src="<?php echo base_url()."assets/js/jquery.js"?>"></script>
@@ -109,21 +109,10 @@
         </div>
     </div>
 
-    <!-- Jumbotron Section -->
-    <div class="section-jumbotron">
-        <div class="maintitle">
-            <div class="shapetitle">
-                    <img src="<?php echo base_url().'assets/detailberita/'; ?>assets/titledetailberita.png" alt="waskitadharma">
-            </div>
-            <div class="title">
-                <h3>Formulir Kartu Rencana Studi (KRS) Tahun Ajaran 2018-2019 STISOSPOL Waskita Dharma Malang</h3>
-                <div class="subtitle">
-                    <i class="far fa-calendar-alt"></i>
-                    <span>&nbsp;&nbsp;2 May 2019&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                    <i class="fas fa-user"></i>
-                    <span>&nbsp;&nbsp;Hubungan Masyarakat</span>
-                </div>
-            </div>
+    <!-- Jumbotron Title -->
+    <div class="jumbotron-flex">
+        <div class="content-title">
+        <h1>Category  : <span style="#E78419">Direct Page</span></h1>
         </div>
     </div>
 
@@ -132,38 +121,14 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="topartikel">
-                    <a href="#"><button>Akademik</button></a>
-                    <a href="#"><button>Informasi</button></a>
-                    <span> Formulir Kartu Rencana Studi (KRS) Tahun Ajaran 2018-2019 STISOSPOL Waskita Dharma Malang</span>
+                    <h2>STISOSPOL WASKITADHARMA MALANG</h2>
+                    <hr>
                 </div>
                 <div class="shapesborder"></div>
                 <div class="artikel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
-                    qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident laborum suscipit recusandae 
-                    in necessitatibus veritatis doloribus natus, perspiciatis facilis, mollitia sapiente voluptates amet
-                    pariatur temporibus quaerat quo repudiandae impedit.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident laborum suscipit recusandae 
-                    in necessitatibus veritatis doloribus natus, perspiciatis facilis, mollitia sapiente voluptates amet
-                    pariatur temporibus quaerat quo repudiandae impedit.
-                </p>
-                    <img src="<?php echo base_url().'assets/detailberita/'; ?>assets/wall2.png" alt="waskitadharma">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident laborum suscipit recusandae 
-                    in necessitatibus veritatis doloribus natus, perspiciatis facilis, mollitia sapiente voluptates amet
-                    pariatur temporibus quaerat quo repudiandae impedit.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident laborum suscipit recusandae 
-                    in necessitatibus veritatis doloribus natus, perspiciatis facilis, mollitia sapiente voluptates amet
-                    pariatur temporibus quaerat quo repudiandae impedit.
-                </p>
+                    <button>Lorem Ipsum 1</button>
+                    <button>Lorem Ipsum 2</button>
+                    <button>Lorem Ipsum 3</button>
                 </div>
 
                 <div class="sosmedtop">
@@ -358,6 +323,7 @@
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
         }
+
         // Script Menu Dropdown CSS
         function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
